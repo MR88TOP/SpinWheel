@@ -59,17 +59,18 @@ n.parentNode.insertBefore(a,n);h&&C("vl-"+h,"1",x)},0),setTimeout(y,7E3))})(wind
             }
           
        <style>
-           /* CSS for phones */
-           @media only screen and (max-width: 300px) {
-           .btn2 {
-             width: 50px; /* Adjust width for phones */
-             height: 40px; /* Adjust height for phones */
-             position: relative;
-             margin-top: 50%; /* Half of the parent container's height */
-             top: -20px; /* Half of the button's height */
-           }
-         }
-    </style>
+  /* CSS for phones */
+  @media only screen and (max-width: 300px) {
+    .btn2 {
+      width: 50px; /* Adjust width for phones */
+      height: 40px; /* Adjust height for phones */
+      position: absolute;
+      left: 50%;
+      top: 50%;s
+      transform: translate(-50%, -50%);
+    }
+  }
+</style>
 
 <!-- HTML -->
 <div style="position: relative; height: 100vh;">
