@@ -145,12 +145,13 @@ body {
         content: url(spin_btn.png);
         position: absolute;
         width: 28%;
-        margin-top: 96vw;
+        margin-top: 100vw;
         z-index: 3;
     }
 
     .timer {
         position: absolute;
+        top: -55.8vw;
         text-align: center;
         color: white;
         font-weight: bold;
@@ -326,8 +327,9 @@ body {
     .btn2 {
         content: url(spin_btn.png);
         position: absolute;
-        width: 85%;
-        margin-top: 262vw;
+        width: 65%;
+        top: 10vw;
+        margin-top: 268 vw;
     }
 
     .timer {
@@ -336,7 +338,7 @@ body {
         color: white;
         font-weight: bold;
         font-size: 3vw;
-        margin-top: 289vw;
+        margin-top: 130vw;
     }
 
     .payment {
